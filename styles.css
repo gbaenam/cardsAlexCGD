@@ -1,0 +1,64 @@
+body {
+  background-color: burlywood;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.card {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3.5em;
+
+  /* background-color: lightblue; */
+}
+
+.card__item {
+  background-color: #f2f2f2;
+  padding-bottom: 3em;
+  flex-basis: 280px;
+  max-width: 450px;
+  flex-grow: 1;
+}
+
+.card__content {
+  width: 90%;
+  margin: 0 auto;
+
+  /* background-color: lightblue; */
+}
+
+.card__picture {
+  width: 90%;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  position: relative;
+  bottom: 2em;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__title {
+  margin-bottom: 1em;
+}
